@@ -21,8 +21,8 @@ namespace dmuka3.CS.Simple.RSA.NUnit
         {
             var rsaKey = new RSAKey(2048);
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < 6000; i++)
-                sb.Append((i % 10).ToString());
+            for (int i = 0; i < 60000; i++)
+                sb.Append(i.ToString());
             string s = sb.ToString();
             var data = Encoding.UTF8.GetBytes(s);
             var e = new RSAKey(rsaKey.PublicKey).Encrypt(data);
