@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>https://github.com/muhammet-kandemir-95</Copyright>
+    <PackageProjectUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.RSA</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.RSA</RepositoryUrl>
+    <PackageTags>c#,core,rsa,dmuka,simple</PackageTags>
+    <Description>RSA library.</Description>
   </PropertyGroup>
 
 </Project>
