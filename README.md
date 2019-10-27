@@ -2,6 +2,12 @@
 
  This library provides you to encrypt/decrypt data with rsa algorithm.
  
+ ## Nuget
+ **Link** : https://www.nuget.org/packages/dmuka3.CS.Simple.RSA/
+ ```nuget
+ Install-Package dmuka3.CS.Simple.RSA
+ ```
+ 
  ## Example 1
  
   We will encrypt a text data with public key. Then, we will decrypt it using private key. Firstly, we need a RSA key which includes private key and public key. Afterwards, we will create a new RSA key via previous public key. Let's do it.
